@@ -1,0 +1,13 @@
+v 4
+file . "TwoBitAdder.vhd" "528072f996f66b61a02f400b6e7f11ca051ad714" "20170119091555.300":
+  entity twobitadder at 1( 0) + 0 on 17;
+  architecture formulas of twobitadder at 5( 88) + 0 on 18;
+file . "Testbench.vhd" "4d89c5a9e2f5291b8837da5d327a0e22c3dd45a0" "20170126175811.158":
+  entity testbench at 1( 0) + 0 on 57;
+  architecture behave of testbench at 6( 66) + 0 on 58;
+file . "DUT.vhd" "338b3b20c39625051d2660001df193a9e0e18e26" "20170126175811.157":
+  entity dut at 4( 115) + 0 on 55;
+  architecture dutwrap of dut at 9( 243) + 0 on 56;
+file . "TwoBitSubtractor.vhd" "360abfa345d8cc0a8ffe6b7e4ef6062e465b4a39" "20170126175811.158":
+  entity twobitsubtractor at 1( 0) + 0 on 59;
+  architecture formulas of twobitsubtractor at 5( 93) + 0 on 60;
