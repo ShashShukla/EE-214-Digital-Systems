@@ -1,0 +1,13 @@
+v 4
+file . "nxor.vhd" "f8b149b3ff04d794497e72e952dcb67527bc7de5" "20170212080058.429":
+  entity nxor at 1( 0) + 0 on 17;
+  architecture define of nxor at 14( 204) + 0 on 18;
+file . "DUT.vhd" "ca52cf1eec722a9d48c537003abc580702c193a4" "20170212075847.146":
+  entity dut at 4( 115) + 0 on 13;
+  architecture dutwrap of dut at 15( 399) + 0 on 14;
+file . "Testbench.vhd" "d7c16221d053d15e6030d784199b9a80bdbc5b40" "20170212075842.185":
+  entity testbench at 1( 0) + 0 on 11;
+  architecture behave of testbench at 12( 146) + 0 on 12;
+file . "fullbitadder.vhd" "6cd4a82727eb7a9c88656045e3c0ee7f25a48310" "20170212080048.956":
+  entity fullbitadder at 1( 0) + 0 on 15;
+  architecture fullbit of fullbitadder at 15( 220) + 0 on 16;

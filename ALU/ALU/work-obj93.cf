@@ -1,0 +1,28 @@
+v 4
+file . "Testbench.vhd" "f2568c607a773244f3f024c0f7fbe73dde20fdaf" "20170214180912.973":
+  entity testbench at 1( 0) + 0 on 65;
+  architecture behave of testbench at 12( 146) + 0 on 66;
+file . "DUT.vhd" "514b7bcf70bd32f88ecf162d484310d177d65c1e" "20170214180912.973":
+  entity dut at 4( 115) + 0 on 67;
+  architecture dutwrap of dut at 15( 400) + 0 on 68;
+file . "alu.vhd" "e06d6646dd7d671b2c3adfe05ee1821bfd7d09a4" "20170214180912.974":
+  entity alu at 3( 51) + 0 on 69;
+  architecture behave of alu at 13( 324) + 0 on 70;
+file . "fullbitadder.vhd" "6cd4a82727eb7a9c88656045e3c0ee7f25a48310" "20170214180912.974":
+  entity fullbitadder at 1( 0) + 0 on 71;
+  architecture fullbit of fullbitadder at 15( 220) + 0 on 72;
+file . "nxor.vhd" "f8b149b3ff04d794497e72e952dcb67527bc7de5" "20170214180912.975":
+  entity nxor at 1( 0) + 0 on 73;
+  architecture define of nxor at 14( 204) + 0 on 74;
+file . "eightbitadder.vhd" "20c3e8b571db2f2e1789e27d1ab8d2e10d97c186" "20170214180912.976":
+  entity eightbitadder at 1( 0) + 0 on 75;
+  architecture eightbitadd of eightbitadder at 15( 249) + 0 on 76;
+file . "eightbitsubtractor.vhd" "be0b8f1c97359fe487174b06641b32ff8a4355f6" "20170214180912.977":
+  entity eightbitsubtractor at 1( 0) + 0 on 77;
+  architecture eightbitadd of eightbitsubtractor at 15( 254) + 0 on 78;
+file . "leftshift.vhd" "d1ec9120637bbdf02d55123e889e3c7ac1da4bbe" "20170214180912.977":
+  entity leftshift at 1( 0) + 0 on 79;
+  architecture leftshift of leftshift at 15( 245) + 0 on 80;
+file . "rightshift.vhd" "838b871bb28ef696be4403b46ce2367fe815192f" "20170214180912.978":
+  entity rightshift at 1( 0) + 0 on 81;
+  architecture rightshift of rightshift at 15( 246) + 0 on 82;

@@ -1,0 +1,10 @@
+v 4
+file . "leftshift.vhd" "d1ec9120637bbdf02d55123e889e3c7ac1da4bbe" "20170212170151.050":
+  entity leftshift at 1( 0) + 0 on 51;
+  architecture leftshift of leftshift at 15( 245) + 0 on 52;
+file . "DUT.vhd" "597efddb2937d8b6dacaef077b4f4ef9a2b9ec94" "20170212170151.050":
+  entity dut at 4( 115) + 0 on 49;
+  architecture dutwrap of dut at 15( 400) + 0 on 50;
+file . "Testbench.vhd" "d675af635f54e1d76569fc93ed392af8010a6dc2" "20170212170151.049":
+  entity testbench at 1( 0) + 0 on 47;
+  architecture behave of testbench at 12( 146) + 0 on 48;
